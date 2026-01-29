@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Olim's Recipe Book</title>
+    <style>
+        body {
+            background-color: rgb(255,245,230); /* мягкий кремовый фон */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: rgb(180,50,50);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(120,30,30);
+            margin-top: 40px;
+        }
+
+        ol li a {
+            color: rgb(50,80,150);
+            text-decoration: none;
+        }
+
+        ol li a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 10px 0 20px 0;
+        }
+
+        th, td {
+            border: 1px solid rgb(180,100,50);
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(255,220,200);
+        }
+
+        p {
+            line-height: 1.6;
+            color: rgb(50,50,50);
+        }
+
+        strong {
+            color: rgb(180,50,50);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Merim's Recipe Book</h1>
+    
+    <h2>Contents:</h2>
+    <ol>
+        <li><a href="#recipe1">Chocolate Muffins</a></li>
+    </ol>
+    
+    <h2 id="recipe1">Chocolate Muffins</h2>
+    
+    <ul>
+        <li>Time: 35 minutes</li>
+        <li>Serves: 12</li>
+    </ul>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>All-purpose flour</td>
+                <td>2 cups</td>
+            </tr>
+            <tr>
+                <td>Cocoa powder</td>
+                <td>1/2 cup</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>2 large</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Butter, melted</td>
+                <td>1/2 cup</td>
+            </tr>
+            <tr>
+                <td>Baking powder</td>
+                <td>2 tsp</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1/2 tsp</td>
+            </tr>
+            <tr>
+                <td>Chocolate chips (optional)</td>
+                <td>1/2 cup</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p><strong>Step 1:</strong> Preheat your oven to 180°C (350°F) and line a muffin tin with paper liners.</p>
+    <p><strong>Step 2:</strong> In a large bowl, whisk together the flour, cocoa powder, sugar, baking powder, and salt.</p>
+    <p><strong>Step 3:</strong> In another bowl, beat the eggs, then add milk and melted butter.</p>
+    <p><strong>Step 4:</strong> Pour the wet ingredients into the dry ingredients and mix until just combined. Fold in chocolate chips if using.</p>
+    <p><strong>Step 5:</strong> Spoon the batter into the muffin tin and bake for 20–25 minutes, or until a toothpick comes out clean.</p>
+    
+    <p><em>Source: <a href="https://www.allrecipes.com/recipe/6865/to-die-for-chocolate-muffins/">AllRecipes: Chocolate Muffins</a></em></p>
+    
+
+</body>
+</html>
+
